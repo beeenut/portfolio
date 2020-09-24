@@ -72,6 +72,11 @@ class Header extends Component {
                   <i className="fa fa-twitter"></i>
                 </a>
               </li>
+              <li key="GitHub">
+                <a href="https://github.com/beeenut/" target="_blank">
+                  <i className="fa fa-github"></i>
+                </a>
+              </li>
             </ul>
           </div>
         </div>

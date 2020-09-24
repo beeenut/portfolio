@@ -20,18 +20,28 @@ class Footer extends Component {
                   <i className="fa fa-twitter"></i>
                 </a>
               </li>
+              <li key="GitHub">
+                <a href="https://github.com/beeenut/" target="_blank">
+                  <i className="fa fa-github"></i>
+                </a>
+              </li>
             </ul>
 
             <ul>
               <li>
-                Website Created by Brendan Engh with help from{" "}
-                <a title="Styleshout" href="http://www.styleshout.com/">
+                Website Created by Brendan Engh using templates from{" "}
+                <a
+                  title="Styleshout"
+                  href="http://www.styleshout.com/"
+                  target="_blank"
+                >
                   Styleshout
                 </a>{" "}
                 and{" "}
                 <a
                   title="Tim Baker"
                   href="https://github.com/tbakerx/react-resume-template"
+                  target="_blank"
                 >
                   Tim Baker
                 </a>
