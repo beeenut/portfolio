@@ -253,12 +253,17 @@
     padding-right: 30px;
   }
   #resume h3,
-  #resume .info {
+  #resume .info,
+  #resume p {
     text-align: center;
   }
 
   .bars {
     width: 100%;
+  }
+
+  .skill-item span {
+    font-size: 13px;
   }
 
   /* Call To Action Section
