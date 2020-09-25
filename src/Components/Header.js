@@ -10,6 +10,16 @@ import React, { Component } from "react";
                   <i className="fa fa-twitter"></i>
                 </a>
               </li>
+              <li key="email">
+                <a href="mailto:brendanengh@gmail.com" target="_blank">
+                  <i className="fa fa-envelope"></i>
+                </a>
+              </li>
+              <li key="GitHub">
+                <a href="https://github.com/beeenut/" target="_blank">
+                  <i className="fa fa-github"></i>
+                </a>
+              </li>
 */
 
 class Header extends Component {
@@ -57,11 +67,10 @@ class Header extends Component {
           <div className="banner-text">
             <h1 className="responsive-headline">Brendan Engh</h1>
             <h3>
-              One of the first graduates of Santa Clara University’s new
-              Electrical & Computer Engineering program, currently enrolled as a
-              graduate student at SCU pursuing a MS in Electrical & Computer
-              Engineering. Passionate about developing new technologies within
-              aerospace and computer architecture.
+              Current graduate student of Electrical & Computer Engineering, MS
+              at Santa Clara University, pursuing a full-time position in
+              aerospace or computer architecture. I specialize in computer
+              architecture, electrical design, and embedded systems.
             </h3>
             <hr />
             <ul className="social">
@@ -71,16 +80,6 @@ class Header extends Component {
                   target="_blank"
                 >
                   <i className="fa fa-linkedin"></i>
-                </a>
-              </li>
-              <li key="email">
-                <a href="mailto:brendanengh@gmail.com" target="_blank">
-                  <i className="fa fa-envelope"></i>
-                </a>
-              </li>
-              <li key="GitHub">
-                <a href="https://github.com/beeenut/" target="_blank">
-                  <i className="fa fa-github"></i>
                 </a>
               </li>
             </ul>

@@ -16,14 +16,14 @@ class About extends Component {
             <h2>About Me</h2>
 
             <p>
-              My name is Brendan Engh, a recent graduate eager to attain a
-              full-time job or part-time internship while I complete my master’s
-              degree at SCU. I specialize in computer architecture, electrical
-              design, and embedded systems. Not only am I one of the first
-              students to graduate from SCU with a BS in Electrical & Computer
-              Engineering, I am also a surfer, a fisherman, a skier, and a
-              traveller. I love the outdoors and solving difficult technical
-              problems while learning along the way.
+              I am a tech nerd at heart with a passion for designing systems
+              that amplify exploration. As a founding graduate of SCU’s
+              Electrical & Computer Engineering program and satellite specialist
+              of the Robotic Systems Lab, my most valued accomplishment was
+              building an autonomous drone cluster for applications in
+              industries like agriculture and environmental monitoring. My most
+              creative solutions are influenced by my love for the outdoors --
+              fishing, surfing, skiing, or traveling.
             </p>
             <div className="row">
               <div className="columns contact-details">
