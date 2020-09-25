@@ -22,8 +22,8 @@ class About extends Component {
               Engineering. I love the outdoors and enjoy solving difficult
               technical problems and learning along the way. I specialize in
               computer architecture, electrical design, and embedded systems.
-              I'm also currently seeking a full-time job or a part-time
-              internship while I complete my master's degree at SCU.
+              Currently I'm seeking a full-time job or a part-time internship
+              while I complete my master's degree at SCU.
             </p>
             <div className="row">
               <div className="columns contact-details">
