@@ -77,7 +77,7 @@ class Resume extends Component {
                   <p>Minor: Computer Science & Engineering</p>
                 </div>
                 <div key="Fav Classes">
-                  <h5>Favorite Classes</h5>
+                  <h5>Coursework</h5>
                   <ul>
                     <li>
                       Adv Computer Architecture <span>&bull; A</span>

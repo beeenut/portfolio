@@ -15,11 +15,6 @@ class Footer extends Component {
                   <i className="fa fa-linkedin"></i>
                 </a>
               </li>
-              <li key="twitter">
-                <a href="https://twitter.com/EnghBrendan" target="_blank">
-                  <i className="fa fa-twitter"></i>
-                </a>
-              </li>
               <li key="GitHub">
                 <a href="https://github.com/beeenut/" target="_blank">
                   <i className="fa fa-github"></i>
