@@ -17,11 +17,11 @@ class About extends Component {
 
             <p>
               My name is Brendan Engh, a recent graduate eager to attain a
-              full-time or part time internship while I complete my master’s
+              full-time job or part-time internship while I complete my master’s
               degree at SCU. I specialize in computer architecture, electrical
               design, and embedded systems. Not only am I one of the first
               students to graduate from SCU with a BS in Electrical & Computer
-              Engineering, but I am also a surfer, a fisherman, a skier, and a
+              Engineering, I am also a surfer, a fisherman, a skier, and a
               traveller. I love the outdoors and solving difficult technical
               problems while learning along the way.
             </p>
