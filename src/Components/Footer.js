@@ -15,18 +15,7 @@ class Footer extends Component {
                   <i className="fa fa-linkedin"></i>
                 </a>
               </li>
-              <li key="email">
-                <a href="mailto:brendanengh@gmail.com" target="_blank">
-                  <i className="fa fa-envelope"></i>
-                </a>
-              </li>
-              <li key="GitHub">
-                <a href="https://github.com/beeenut/" target="_blank">
-                  <i className="fa fa-github"></i>
-                </a>
-              </li>
             </ul>
-
             <ul>
               <li>
                 <br />
