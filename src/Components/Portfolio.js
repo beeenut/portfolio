@@ -6,7 +6,7 @@ var projectss = [
   {
     title: "Adaptive Navigation Utilizing a Drone Cluster",
     category: "Senior Design Project built at Santa Clara University",
-    image: "drone.jpg",
+    image: "drone.png",
   },
   {
     title: "PCB Speaker",
@@ -22,7 +22,7 @@ var projectss = [
   {
     title: "Mouse Controlled LED Light Strip",
     category: "LED rainbow controlled by an STM32L4 microcontroller",
-    image: "led.jpg",
+    image: "led.png",
   },
   {
     title: "4 Bit Ripple Carry Adder Hierarchical Design",

@@ -29,6 +29,21 @@ class Footer extends Component {
 
             <ul>
               <li>
+                <br />
+
+                <br />
+              </li>
+              <li>
+                Photo credit:{" "}
+                <a
+                  title="Casey Horner"
+                  href="https://unsplash.com/@mischievous_penguins?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge"
+                  target="_blank"
+                >
+                  Casey Horner
+                </a>
+              </li>
+              <li>
                 Website Created by Brendan Engh using templates from{" "}
                 <a
                   title="Styleshout"

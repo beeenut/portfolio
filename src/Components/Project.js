@@ -10,7 +10,7 @@ var descrips = [
       "Unfortunately due to Covid-19 our project was significantly delayed and due to safety concerns we were unable to let our drones take to the skys. However, we were able to verify all of our software as well hardware through stationary tests and a simulation environment. Photos of the project as well as our team's final thesis can be downloaded below.",
     ],
     techs: "drone.jpg",
-    image: "drone.jpg",
+    image: "drone.png",
     videos: "",
   },
   {
@@ -41,7 +41,7 @@ var descrips = [
       "After going through both these abstraction layers I moved into the STM’s CubeMX platform to easily configure ports,interrupts and timing. Once I was able to implement a cool rainbow pattern that would fill the led from one side and then drain to the other, I started experimenting with the USB standard library. I ended up connecting my computer mouse to theSTM32 board with an OTG adapter. I was able to use the mouse scroll wheel to increase the speed of the draining and was able to click the mouse to change the LED color.",
     ],
     techs: "drone.jpg",
-    image: "led.jpg",
+    image: "led.png",
     video: "",
   },
   {
