@@ -48,7 +48,7 @@ var descrips = [
     ],
     techs: ["Vivado HLx", "Verilog", "Design Verification"],
     image: "pipeline.png",
-    extraimages: [],
+    extraimages: ["instruction-set.PNG", "instruction-code.PNG"],
     video: "",
   },
   {
