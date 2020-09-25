@@ -54,8 +54,8 @@ class Header extends Component {
               I'm a San Diego native currently enrolled as a student at Santa
               Clara University pursing a{" "}
               <span>MS in Electrical & Computer Engineering</span>. I have a
-              passion for developing new technolgies whether that be within
-              aerospace or computer architecture.
+              passion for developing new technologies within aerospace and
+              computer architecture.
             </h3>
             <hr />
             <ul className="social">
