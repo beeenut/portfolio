@@ -16,14 +16,14 @@ class About extends Component {
             <h2>About Me</h2>
 
             <p>
-              My name is Brendan Engh. I'm a surfer, a fisher, a skier, a
-              traveller, and I'm also one of the first students to graduate from
-              Santa Clara University with a BS in Electrical & Computer
-              Engineering. I love the outdoors and enjoy solving difficult
-              technical problems and learning along the way. I specialize in
-              computer architecture, electrical design, and embedded systems.
-              Currently I'm seeking a full-time job or a part-time internship
-              while I complete my master's degree at SCU.
+              My name is Brendan Engh, a recent graduate eager to attain a
+              full-time or part time internship while I complete my master’s
+              degree at SCU. I specialize in computer architecture, electrical
+              design, and embedded systems. Not only am I one of the first
+              students to graduate from SCU with a BS in Electrical & Computer
+              Engineering, but I am also a surfer, a fisherman, a skier, and a
+              traveller. I love the outdoors and solving difficult technical
+              problems while learning along the way.
             </p>
             <div className="row">
               <div className="columns contact-details">

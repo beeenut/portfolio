@@ -17,8 +17,15 @@ var descrips = [
       "Soldering Iron",
       "Serial Interfaces",
     ],
-    image: "drone.png",
-    extraimages: [],
+    image: "drone-overview.png",
+    extraimages: [
+      "drone.png",
+      "drone-quarantine-workbench.jpg",
+      "drone-groundstation.jpg",
+      "drone-fullview.jpg",
+      "drone-teardown.jpg",
+      "drone-closeup.jpg",
+    ],
     videos: "",
   },
   {
@@ -75,7 +82,7 @@ var descrips = [
       "Simulation and Analysis Environment (SAE)",
     ],
     image: "full-adder.png",
-    extraimages: [],
+    extraimages: ["HA.png", "full-adder.png", "4bit.png"],
     video: "",
   },
   {
@@ -126,8 +133,8 @@ class Project extends Component {
         var images = projects.extraimages.map(function (images) {
           var imagee = "images/portfolio/" + images;
           return (
-            <div>
-              <img alt={imagee}>{imagee}</img>
+            <div className="exImage">
+              <img alt={images} src={imagee} />
             </div>
           );
         });
@@ -149,7 +156,7 @@ class Project extends Component {
               </div>
               <div>
                 <h3 className={extraImages ? "show" : "noShow "}>Images</h3>
-                {images}
+                <div className="images">{images}</div>
               </div>
             </div>
           </div>

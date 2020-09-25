@@ -753,6 +753,7 @@ ul#nav li.current a {
   letter-spacing: 2px;
   text-align: center;
   color: #95a3a3;
+  margin-bottom: 0px !important;
 }
 .project h2,
 .project h3,
@@ -766,6 +767,14 @@ ul#nav li.current a {
 
 .project-wrapper .skill-item {
   padding: 0px;
+}
+
+.project .images {
+  display: flex;
+  flex-wrap: wrap;
+}
+.project .exImage {
+  width: 50%;
 }
 
 /* fadein/fadeout effect for modal popup

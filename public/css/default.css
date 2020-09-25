@@ -1043,6 +1043,7 @@ properly.
   .project .techs{
     width: 100% !important;
   }
+
 }
 
 /* mobile wide/smaller tablets
@@ -1107,6 +1108,21 @@ properly.
   }
   .row .offset-11 {
     margin-left: 0%;
+  }
+
+
+  .project .exImage {
+    width: 100% !important;
+  }
+
+  .modal-content {
+    width: 99% !important;
+  }
+  .project .image {
+    width: 100% !important; 
+  }
+  .project .para p{
+    font-size: 14px;
   }
 }
 

@@ -97,12 +97,6 @@ class Resume extends Component {
                     <li>
                       Electronic Circuits <span>&bull; A-</span>
                     </li>
-                    <li>
-                      Real-Time Embedded Systems + Lab <span>&bull; B+</span>
-                    </li>
-                    <li>
-                      Chaos Theory, Metamathematics + Lab <span>&bull; B+</span>
-                    </li>
                   </ul>
                 </div>
               </div>
