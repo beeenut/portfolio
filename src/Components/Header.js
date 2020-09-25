@@ -57,11 +57,7 @@ class Header extends Component {
           <div className="banner-text">
             <h1 className="responsive-headline">Brendan Engh</h1>
             <h3>
-              I'm a San Diego native currently enrolled as a student at Santa
-              Clara University pursuing a{" "}
-              <span>MS in Electrical & Computer Engineering</span>. I have a
-              passion for developing new technologies within aerospace and
-              computer architecture.
+              One of the first graduates of Santa Clara University’s (SCU) new{" "}
             </h3>
             <hr />
             <ul className="social">
