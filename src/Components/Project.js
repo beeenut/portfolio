@@ -72,7 +72,7 @@ class Project extends Component {
   render() {
     var current = this.props.title;
     var projects = descrips.map(function (projects) {
-      if (projects.title == current) {
+      if (projects.title === current) {
         var projectImage = "images/portfolio/" + projects.image;
         var paragraphs = projects.background.map(function (paragraphs) {
           return (

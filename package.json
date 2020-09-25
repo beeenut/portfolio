@@ -27,8 +27,9 @@
       "last 1 safari version"
     ]
   },
-  "description": "## 👇 WATCH THIS FIRST 👇 ## https://tinyurl.com/customizeReactPortfolio",
+  "description": "my website",
   "main": "index.js",
+<<<<<<< Updated upstream
   "author": "",
   "license": "ISC",
   "devDependencies": {},
@@ -40,4 +41,7 @@
     "url": "https://github.com/beeenut/portfolio/issues"
   },
   "homepage": "https://github.com/beeenut/portfolio#readme"
+=======
+  "author": "Brendan Engh"
+>>>>>>> Stashed changes
 }
