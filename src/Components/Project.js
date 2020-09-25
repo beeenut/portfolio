@@ -9,8 +9,16 @@ var descrips = [
       "My main focus for this project was on the hardware which included the drones, radios, gps, motors, scalar field sensors, beacon, and the power management system. I began by identifying each of the hardware components necessary to make a flight ready system to perform adaptive navigation. This involved integrating and configuring each of the drones and components to act as one cohesive unit. I was responsible for examining four of the RSL’s old 3DR X8 octa-quad-copters and equipping them with all our new components. This also included ensuring proper power management for the new components. I developed, calibrated, and tested the scalar field sensors to be used for adaptive navigation. Once all the subsystems tests were complete I worked on testing the fully integrated system. This was conducted through stationary tests of all of the systems. Additionally, I completed necessary safety forms and pre-flight checklists as well as receiving my FAA Part 107 drone license.",
       "Unfortunately due to Covid-19 our project was significantly delayed and due to safety concerns we were unable to let our drones take to the skys. However, we were able to verify all of our software as well hardware through stationary tests and a simulation environment. Photos of the project as well as our team's final thesis can be downloaded below.",
     ],
-    techs: "drone.jpg",
+    techs: [
+      "Arduino",
+      "Pixhawk",
+      "Xbee",
+      "Matlab",
+      "Soldering Iron",
+      "Serial Interfaces",
+    ],
     image: "drone.png",
+    extraimages: [],
     videos: "",
   },
   {
@@ -18,8 +26,9 @@ var descrips = [
     background: [
       "This was a PCB speaker designed using EAGLE. This project consisted of digging through product datasheets, learning how to properly route traces, and picking components to ensure proper design and functionality. To verify the design I used DRC and ERC checks. Once verified, the design was sent to a board house and I generated a bill of materials. ",
     ],
-    techs: "drone.jpg",
+    techs: ["EAGLE"],
     image: "pcb-speaker.png",
+    extraimages: [],
     video: "",
   },
   {
@@ -30,8 +39,9 @@ var descrips = [
       "I designed the cache to be a direct mapped write through cache. The cache module was implemented in such a way that main memory co-existed within the cache module. This was done so wires didn’t need to be added and rearranged. This solution also worked for my system because going to main memory wouldn’t cost any cycles, so by combining the cache and main memory in one module the cache module could be simpler. The cache was completed without any errors, however, through simulation tests using the maximum instruction code, the same error as mentioned before still existed. This issue was never resolved, but I would guess it is either an issue with my vivado simulation, or how I initialized the memory to include a range of numbers. I designed the cache to be a direct mapped write through cache. The cache module was implemented in such a way that main memory co-existed within the cache module. This was done so wires didn’t need to be added and rearranged. This solution also worked for my system because going to main memory wouldn’t cost any cycles, so by combining the cache and main memory in one module the cache module could be simpler. The cache was completed without any errors, however, through simulation tests using the maximum instruction code, the same error as mentioned before still existed. This issue was never resolved, but I would guess it is either an issue with my vivado simulation, or how I initialized the memory to include a range of numbers.",
       "The simplified instruction set is shown below and the architectural block diagram is shown above.",
     ],
-    techs: "drone.jpg",
+    techs: ["Vivado HLx", "Verilog", "Design Verification"],
     image: "pipeline.png",
+    extraimages: [],
     video: "",
   },
   {
@@ -40,8 +50,17 @@ var descrips = [
       "For this project I used an STM32L4 Discovery Board and the Kiel IDE to implement different patterns on a 72- LED strip. The beginning of the project consisted of coding embedded C in a low level (LL). This involved coding closer to the hardware particularly the GPIO ports and pins. Once I successfully demonstrated I could turn lights on and off based on a timer I moved to the hardware abstraction layer (HAL). I coded a similar functionally to the LL and added more lights. ",
       "After going through both these abstraction layers I moved into the STM’s CubeMX platform to easily configure ports,interrupts and timing. Once I was able to implement a cool rainbow pattern that would fill the led from one side and then drain to the other, I started experimenting with the USB standard library. I ended up connecting my computer mouse to theSTM32 board with an OTG adapter. I was able to use the mouse scroll wheel to increase the speed of the draining and was able to click the mouse to change the LED color.",
     ],
-    techs: "drone.jpg",
+    techs: [
+      "Embedded C",
+      "LL",
+      "HAL",
+      "CubeMX",
+      "Kiel IDE",
+      "STM32L4-Disco-Board",
+      "USB - Library",
+    ],
     image: "led.png",
+    extraimages: [],
     video: "",
   },
   {
@@ -50,8 +69,13 @@ var descrips = [
       "For this project I created the layout for a 4-bit ripple carry adder. I started the hierarchical design with transistor level schematics. I did this through multiple steps including creating an OR gate, an AND gate, and a XOR gate, then creating a half adder, then a full adder schematic. Once each component was made I connected each full adder module to make a 4-bit ripple carry adder schematic . I was able to verify the design by creating a testbench and using the Synopsys’s Simulation and Analysis Environment (SAE) to generate a waveform.",
       "Once I created the schematic I was ready to start on the layout. I started by building the layout for the gates and then moving up the hierarchical design until I reached the final four-bit adder. Once the design was complete I verified the layout through the Design Rule Check (DRC) and the Layout vs. Schematic (LVS) check.",
     ],
-    techs: "drone.jpg",
+    techs: [
+      "Synopsys Custom Compiler",
+      "Layout vs. Schematic (LVS)",
+      "Simulation and Analysis Environment (SAE)",
+    ],
     image: "full-adder.png",
+    extraimages: [],
     video: "",
   },
   {
@@ -62,18 +86,30 @@ var descrips = [
       "Tim Baker Repo - https://github.com/tbakerx/react-resume-template",
       "ShoutOut HTML template - https://www.styleshout.com/demo/?theme=ceevee",
     ],
-    techs: "drone.jpg",
+    techs: [
+      "React.js",
+      "Node.js",
+      "Javascript",
+      "CSS",
+      "HTML",
+      "GitHub",
+      "Goggle Domains",
+      "Netlify",
+    ],
     image: "website.png",
+    extraimages: [],
     video: "",
   },
 ];
 
 class Project extends Component {
   render() {
+    var extraImage = this.exImage;
     var current = this.props.title;
     var projects = descrips.map(function (projects) {
       if (projects.title === current) {
         var projectImage = "images/portfolio/" + projects.image;
+
         var paragraphs = projects.background.map(function (paragraphs) {
           return (
             <div className="para">
@@ -82,14 +118,41 @@ class Project extends Component {
             </div>
           );
         });
+
+        var tech = projects.techs.map(function (tech) {
+          return <span>{tech}</span>;
+        });
+
+        var extraImages = projects.extraimages.length >= 1;
+        console.log(extraImages);
+        var images = projects.extraimages.map(function (images) {
+          var imagee = "images/portfolio/" + images;
+          return (
+            <div>
+              <img>{imagee}</img>
+            </div>
+          );
+        });
+
         return (
           <div>
-            <h5>{projects.title}</h5>
+            <h1>{projects.title}</h1>
             <div className="project-wrapper">
               <div className="image">
                 <img alt={projects.title} src={projectImage} />
               </div>
-              {paragraphs}
+              <div>
+                <h3>Technologies Used</h3>
+                <div className="skill-item">{tech}</div>
+              </div>
+              <div>
+                <h3>Description</h3>
+                {paragraphs}
+              </div>
+              <div>
+                <h3 className={extraImages ? "show" : "noShow "}>Images</h3>
+                {images}
+              </div>
             </div>
           </div>
         );

@@ -478,10 +478,10 @@ ul#nav li.current a {
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
 
-#portfolio .noShow {
+.noShow {
   display: none;
 }
-#portfolio .show {
+.show {
   display: block;
 }
 /* The Modal (background) */
@@ -510,10 +510,15 @@ ul#nav li.current a {
 
 /* The Close Button */
 .close {
-  color: #aaa;
+  position: fixed;
+  color: #fff;
+  background-color: #f06000;
   float: right;
-  font-size: 28px;
+  font-size: 40px;
+  padding: 5px 8px 5px 8px;
+  border-radius: 8px;
   font-weight: bold;
+  margin-left: -15px;
 }
 
 .close:hover,
@@ -524,10 +529,18 @@ ul#nav li.current a {
 }
 
 /*project modals*/
-#project-wrapper {
+.project-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 10px;
+}
+.project-wrapper div {
+  padding: 20px;
+}
+
+.para {
+  padding: 0px !important;
 }
 .para p {
   margin: 0px !important;
@@ -724,6 +737,27 @@ ul#nav li.current a {
 }
 .popup-modal a.popup-modal-dismiss {
   margin-left: 24px;
+}
+
+#project .image {
+  max-width: 600px;
+  max-height: 400px;
+}
+
+#project h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #95a3a3;
+}
+#project h2,
+h3,
+h4,
+h5 {
+  font: 15px/24px "opensans-semibold", sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #000000;
 }
 
 /* fadein/fadeout effect for modal popup

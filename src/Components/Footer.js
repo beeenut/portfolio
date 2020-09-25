@@ -34,7 +34,7 @@ class Footer extends Component {
                 <br />
               </li>
               <li>
-                Photo credit:{" "}
+                Header Photo credit:{" "}
                 <a
                   title="Casey Horner"
                   href="https://unsplash.com/@mischievous_penguins?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge"
