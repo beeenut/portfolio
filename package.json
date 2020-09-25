@@ -29,19 +29,5 @@
   },
   "description": "my website",
   "main": "index.js",
-<<<<<<< Updated upstream
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/beeenut/portfolio.git"
-  },
-  "bugs": {
-    "url": "https://github.com/beeenut/portfolio/issues"
-  },
-  "homepage": "https://github.com/beeenut/portfolio#readme"
-=======
   "author": "Brendan Engh"
->>>>>>> Stashed changes
 }
