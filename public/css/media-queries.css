@@ -118,7 +118,6 @@
     width: 48px;
     height: 48px;
     text-align: left;
-    background-color: #cc5200;
     position: relative;
     border: none;
     float: right;
@@ -129,13 +128,13 @@
 
     position: relative;
     top: 0px;
-    right: 30px;
+    right: 5px;
   }
 
   #nav-wrap > a:before,
   #nav-wrap > a:after {
     position: absolute;
-    border: 2px solid #fff;
+    border: 2px solid #cc5200;
     top: 35%;
     left: 25%;
     right: 25%;
