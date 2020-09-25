@@ -68,6 +68,11 @@ class Portfolio extends Component {
         >
           <div className="item-wrap">
             <img alt={projects.title} src={projectImage} />
+            <div className="link-container">
+              <div className="link-plus">
+                <i className="fa fa-plus-circle"></i>
+              </div>
+            </div>
             <div className="overlay">
               <div className="portfolio-item-meta">
                 <h5>{projects.title}</h5>
@@ -75,7 +80,7 @@ class Portfolio extends Component {
               </div>
             </div>
             <div className="link-icon">
-              <i className="fa fa-link"></i>
+              <i className="fa fa-plus-circle"></i>
             </div>
           </div>
         </div>
