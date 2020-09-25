@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { set } from "react-ga";
 import Project from "./Project.js";
 
 var projectss = [
@@ -99,9 +98,9 @@ class Portfolio extends Component {
           </div>
         </div>
         <div className={this.state.toggle ? "show" : "noShow"}>
-          <div class="modal">
-            <div class="modal-content">
-              <span class="close" onClick={pop}>
+          <div className="modal">
+            <div className="modal-content">
+              <span className="close" onClick={pop}>
                 &times;
               </span>
               <div>

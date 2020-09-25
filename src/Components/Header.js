@@ -5,7 +5,13 @@ import React, { Component } from "react";
                   <i className="fa fa-github"></i>
                 </a>
               </li>
+              <li key="twitter">
+                <a href="https://twitter.com/EnghBrendan" target="_blank">
+                  <i className="fa fa-twitter"></i>
+                </a>
+              </li>
 */
+
 class Header extends Component {
   render() {
     return (
@@ -52,7 +58,7 @@ class Header extends Component {
             <h1 className="responsive-headline">Brendan Engh</h1>
             <h3>
               I'm a San Diego native currently enrolled as a student at Santa
-              Clara University pursing a{" "}
+              Clara University pursuing a{" "}
               <span>MS in Electrical & Computer Engineering</span>. I have a
               passion for developing new technologies within aerospace and
               computer architecture.
@@ -65,11 +71,6 @@ class Header extends Component {
                   target="_blank"
                 >
                   <i className="fa fa-linkedin"></i>
-                </a>
-              </li>
-              <li key="twitter">
-                <a href="https://twitter.com/EnghBrendan" target="_blank">
-                  <i className="fa fa-twitter"></i>
                 </a>
               </li>
               <li key="GitHub">

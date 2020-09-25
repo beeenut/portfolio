@@ -104,7 +104,6 @@ var descrips = [
 
 class Project extends Component {
   render() {
-    var extraImage = this.exImage;
     var current = this.props.title;
     var projects = descrips.map(function (projects) {
       if (projects.title === current) {
@@ -124,12 +123,11 @@ class Project extends Component {
         });
 
         var extraImages = projects.extraimages.length >= 1;
-        console.log(extraImages);
         var images = projects.extraimages.map(function (images) {
           var imagee = "images/portfolio/" + images;
           return (
             <div>
-              <img>{imagee}</img>
+              <img alt={imagee}>{imagee}</img>
             </div>
           );
         });
@@ -141,7 +139,7 @@ class Project extends Component {
               <div className="image">
                 <img alt={projects.title} src={projectImage} />
               </div>
-              <div>
+              <div className="techs">
                 <h3>Technologies Used</h3>
                 <div className="skill-item">{tech}</div>
               </div>
@@ -158,7 +156,7 @@ class Project extends Component {
         );
       }
     });
-    return <div id="project">{projects}</div>;
+    return <div className="project">{projects}</div>;
   }
 }
 

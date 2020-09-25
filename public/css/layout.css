@@ -739,25 +739,33 @@ ul#nav li.current a {
   margin-left: 24px;
 }
 
-#project .image {
+.project .image {
   max-width: 600px;
   max-height: 400px;
+  width: 67%;
+}
+.project .techs {
+  width: 33%;
 }
 
-#project h1 {
+.project h1 {
   text-transform: uppercase;
   letter-spacing: 2px;
   text-align: center;
   color: #95a3a3;
 }
-#project h2,
-h3,
-h4,
-h5 {
-  font: 15px/24px "opensans-semibold", sans-serif;
+.project h2,
+.project h3,
+.project h4,
+.project h5 {
+  font: 20px/24px "opensans-semibold", sans-serif;
   letter-spacing: 1px;
-  text-align: center;
   color: #000000;
+  text-decoration: underline;
+}
+
+.project-wrapper .skill-item {
+  padding: 0px;
 }
 
 /* fadein/fadeout effect for modal popup
