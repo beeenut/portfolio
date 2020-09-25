@@ -69,8 +69,11 @@ class Header extends Component {
             <h3>
               Current graduate student of Electrical & Computer Engineering, MS
               at Santa Clara University, pursuing a full-time position in
-              aerospace or computer architecture. I specialize in computer
-              architecture, electrical design, and embedded systems.
+              aerospace or computer architecture. I specialize in{" "}
+              <span>
+                computer architecture, electrical design, and embedded systems
+              </span>
+              .
             </h3>
             <hr />
             <ul className="social">
