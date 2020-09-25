@@ -29,5 +29,15 @@
   },
   "description": "my website",
   "main": "index.js",
-  "author": "Brendan Engh"
+  "author": "Brendan Engh",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beeenut/portfolio.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beeenut/portfolio/issues"
+  },
+  "homepage": "https://github.com/beeenut/portfolio#readme"
 }
