@@ -35,7 +35,7 @@ class Resume extends Component {
     var software = softwares.map(function (softwares) {
       return <span>{softwares}</span>;
     });
-    var devices = ["FPGAs", "Arduino", "STM32L4-Disco-Board", "Pixhawk"];
+    var devices = ["FPGAs", "Arduino", "STM32", "Pixhawk"];
     var device = devices.map(function (devices) {
       return <span>{devices}</span>;
     });
@@ -98,12 +98,6 @@ class Resume extends Component {
                     <li>
                       Digital Signal Processing + Lab <span>&bull; A</span>
                     </li>
-                    <li>
-                      Electric Circuits II + Lab <span>&bull; A</span>
-                    </li>
-                    <li>
-                      Electronic Circuits <span>&bull; A-</span>
-                    </li>
                   </ul>
                 </div>
               </div>
@@ -117,6 +111,30 @@ class Resume extends Component {
               <span>Work</span>
             </h1>
           </div>
+          <div key="Lockheed Martin Space">
+              <h3>Lockheed Martin Space - Silicon Solutions</h3>
+              <p className="info">
+                ASIC & FPGA Design Engineer
+                <span>&bull;</span>{" "}
+                <em className="date">June 2022 - Present</em>
+              </p>
+            </div>
+          <div className="nine columns main-col">
+            <div key="Northrup Grumman Space Systems">
+              <h3>Northrup Grumman Space Systems</h3>
+              <p className="info">
+                Electrical Engineer
+                <span>&bull;</span>{" "}
+                <em className="date">December 2020 - April 2022</em>
+              </p>
+              <p>
+                Supported Air Force Launch Facilities and Missile Flight Systems 
+                by leading a multifunctional AGILE team to create battery load 
+                profiles and test plans. My work conducting weapon system 
+                tests and technical analysis lead to the creation of new 
+                specifications and AF Drawings.
+              </p>
+            </div>
           <div className="nine columns main-col">
             <div key="Robotic Systems Laboratory - SCU">
               <h3>Robotic Systems Laboratory - SCU</h3>
@@ -151,10 +169,6 @@ class Resume extends Component {
                 Engineering Intern
                 <span>&bull;</span>{" "}
                 <em className="date">June 2018 - July 2018</em>
-              </p>
-              <p>
-                Assembled off-grid solar array units and worked as a liaison
-                between the workshop and the office
               </p>
             </div>
           </div>
