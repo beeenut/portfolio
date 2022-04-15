@@ -81,10 +81,10 @@ class Resume extends Component {
                   <ul>
                     <li>
                       Machine Learning & Signal Processing using FPGAs{" "}
-                      <span>&bull; Ongoing</span>
+                      <span>&bull; A</span>
                     </li>
                     <li>
-                      Logic Design Using HDL <span>&bull; Ongoing</span>
+                      Real Time Systems <span>&bull; A</span>
                     </li>
                     <li>
                       Adv Computer Architecture <span>&bull; A</span>
