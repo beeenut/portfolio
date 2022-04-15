@@ -111,6 +111,7 @@ class Resume extends Component {
               <span>Work</span>
             </h1>
           </div>
+          <div></div>
           <div className="nine columns main-col">
             <div key="Lockheed Martin Space">
               <h3>Lockheed Martin Space - Silicon Solutions</h3>
@@ -118,6 +119,7 @@ class Resume extends Component {
                 ASIC & FPGA Design Engineer
                 <span>&bull;</span>{" "}
                 <em className="date">June 2022 - Present</em>
+                <p></p>
               </p>
             </div>
           </div>
@@ -173,6 +175,7 @@ class Resume extends Component {
                 <span>&bull;</span>{" "}
                 <em className="date">June 2018 - July 2018</em>
               </p>
+              <p></p>
             </div>
           </div>
         </div>
