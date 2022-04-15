@@ -122,8 +122,6 @@ class Resume extends Component {
                 <p></p>
               </p>
             </div>
-          </div>
-          <div className="nine columns main-col">
             <div key="Northrup Grumman Space Systems">
               <h3>Northrup Grumman Space Systems</h3>
               <p className="info">
@@ -139,8 +137,6 @@ class Resume extends Component {
                 specifications and AF Drawings.
               </p>
             </div>
-          </div>
-          <div className="nine columns main-col">
             <div key="Robotic Systems Laboratory - SCU">
               <h3>Robotic Systems Laboratory - SCU</h3>
               <p className="info">
