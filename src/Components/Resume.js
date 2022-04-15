@@ -112,13 +112,12 @@ class Resume extends Component {
             </h1>
           </div>
           <div key="Lockheed Martin Space">
-              <h3>Lockheed Martin Space - Silicon Solutions</h3>
-              <p className="info">
-                ASIC & FPGA Design Engineer
-                <span>&bull;</span>{" "}
-                <em className="date">June 2022 - Present</em>
-              </p>
-            </div>
+            <h3>Lockheed Martin Space - Silicon Solutions</h3>
+            <p className="info">
+              ASIC & FPGA Design Engineer
+              <span>&bull;</span> <em className="date">June 2022 - Present</em>
+            </p>
+          </div>
           <div className="nine columns main-col">
             <div key="Northrup Grumman Space Systems">
               <h3>Northrup Grumman Space Systems</h3>
@@ -128,13 +127,14 @@ class Resume extends Component {
                 <em className="date">December 2020 - April 2022</em>
               </p>
               <p>
-                Supported Air Force Launch Facilities and Missile Flight Systems 
-                by leading a multifunctional AGILE team to create battery load 
-                profiles and test plans. My work conducting weapon system 
-                tests and technical analysis lead to the creation of new 
+                Supported Air Force Launch Facilities and Missile Flight Systems
+                by leading a multifunctional AGILE team to create battery load
+                profiles and test plans. My work conducting weapon system tests
+                and technical analysis lead to the creation of new
                 specifications and AF Drawings.
               </p>
             </div>
+          </div>
           <div className="nine columns main-col">
             <div key="Robotic Systems Laboratory - SCU">
               <h3>Robotic Systems Laboratory - SCU</h3>
