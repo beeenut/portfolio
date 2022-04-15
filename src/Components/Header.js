@@ -68,8 +68,8 @@ class Header extends Component {
             <h1 className="responsive-headline">Brendan Engh</h1>
             <h3>
               Current graduate student of Electrical & Computer Engineering, MS
-              at Santa Clara University, pursuing a full-time position in
-              aerospace or computer architecture. I specialize in{" "}
+              at Santa Clara University, pursuing a career in aerospace &
+              computer architecture. I specialize in{" "}
               <span>
                 computer architecture, electrical design, and embedded systems
               </span>
