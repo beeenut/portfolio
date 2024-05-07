@@ -67,9 +67,10 @@ class Resume extends Component {
                   <h3>Santa Clara University</h3>
                   <p className="info">
                     MS in Electrical & Computer Engineering <span>&bull;</span>
-                    <em className="date">Ongoing</em>
+                    <em className="date">Graduated March 2024</em>
                   </p>
                   <p>Focus Area: Digital Systems</p>
+                  <p>Research:   Secure RISC-V Core</p>
                   <p className="info">
                     BS in Electrical & Computer Engineering <span>&bull;</span>
                     <em className="date">Graduated June 2020</em>
@@ -119,7 +120,12 @@ class Resume extends Component {
                 ASIC & FPGA Design Engineer
                 <span>&bull;</span>{" "}
                 <em className="date">June 2022 - Present</em>
-                <p></p>
+              </p>
+              <p>
+                Designed and optimized FPGA specifications for space radio communication, 
+                modeled DSP radio architectures using MATLAB, and wrote System Verilog 
+                for control, achieving successful system integration and customer 
+                demonstrations through effective teamwork and innovative solutions.
               </p>
             </div>
             <div key="Northrup Grumman Space Systems">
