@@ -67,11 +67,12 @@ class Header extends Component {
           <div className="banner-text">
             <h1 className="responsive-headline">Brendan Engh</h1>
             <h3>
-              Current graduate student of Electrical & Computer Engineering, MS
-              at Santa Clara University, pursuing a career in aerospace &
+              FPGA Engineer at Lockheed Martin Space and graduate 
+              of Electrical & Computer Engineering, MS at
+              Santa Clara University, pursuing a career in aerospace &
               computer architecture. I specialize in{" "}
               <span>
-                computer architecture, electrical design, and embedded systems
+                ASIC & FPGAs, computer architecture, and embedded systems
               </span>
               .
             </h3>
