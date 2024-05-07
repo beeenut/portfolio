@@ -18,8 +18,8 @@ class About extends Component {
             <p>
               I am a tech nerd at heart with a passion for designing systems
               that amplify exploration. As a founding graduate of SCU’s
-              Electrical & Computer Engineering program and satellite specialist
-              of the Robotic Systems Lab, my most valued accomplishment was
+              Electrical & Computer Engineering program and digital space
+              system specialist, my most valued accomplishment was
               building an autonomous drone cluster for applications in
               industries like agriculture and environmental monitoring. My most
               creative solutions are influenced by my love for the outdoors --
@@ -47,7 +47,7 @@ class About extends Component {
               <div className="columns download">
                 <p>
                   <a
-                    href={"Brendan Engh Resume.pdf"}
+                    href={"Brendan Engh Resume FPGA Engineer.pdf"}
                     className="button"
                     download
                   >
